@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.444.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <script src="sketch.js"></script>
+  </head>
+
+  <body>
+
+
+    <h1>Instructions:</h1>
+    <p>1. press d key to identify objects</p>
+    <p>2. press f key to identify objects</p>
+
+    <div id="sketch-holder">
+      <!-- Sketch goes here -->
+    </div>
+
+    <div id="about">
+    <h1>About</h1>
+    <p>
+
+    [1] Obfuscation is the deliberate addition of ambiguous, confusing, or
+    misleading information to interfere with surveillance and data collection.<br />
+    …<br />
+    [2] Obfuscation, at its most abstract, is the production of noise modeled on
+    an existing signal in order to make a collection of data more ambiguous,
+    confusing, harder to exploit, more difficult to act on, and therefore less
+    valuable (p.46)<br />
+
+    <br />--Definitions from Obfuscation: A User’s Guide for Privacy and Protest
+    by Finn Burton and Helen Nissenbaum<br />
+
+    <br />This project is in response to recent developments in machine learning
+    and the increasing ubiquitousness of facial recognition systems.
+    These technologies have brought many benefits and conveniences, but we also
+    we believe it is important to ask questions of the technological developments
+    and and think critically before employing them. By making a kit of silicone
+    face adhesives to make oneself anonymous to facial recognition systems we
+    hope to give people a choice.<br />
+
+    <br />We encourage you to read the Obfuscation User’s Guide which discusses
+    important questions in this work such as: Is obfuscation necessary? Is
+    obfuscation justified? Will obfuscation work?<br />
+
+    <br />In particular, we are motivated by the following from this book:<br />
+
+    <br />Importance of privacy: privacy is important because it allows us to
+    develop and get to know ourselves as individuals<br />
+
+    <br /><b>Information asymmetry:</b> this is about knowledge and power and happens
+    when information about us is used and collected in ways we don’t
+    understand<br />
+
+    <br /><b>Data obedience:</b> Currently, many tech systems we engage with although
+    portrayed as voluntary have no way of not participating. Like the economic
+    man, the person with the perfect data security and privacy practices is does
+    not exist<br />
+
+    <br /><b>Ethics of obfuscation:</b>  This is an essential discussion - obfuscation
+    tactics should have legitimate ends and should not cause harm and does not
+    leave others worse off.<br />
+
+
+    <br />Building on work in this area, this project aims not to obscure a
+    person from a camera, but to render their face anonymous or unidentified.
+    This project is an effort of initial research into how to create portable
+    tools to protect against facial recognition software. In the next phase,
+    we’d like to use machine learning to develop the. It will be impossible for
+    us to continue to adapt our designs against<br />
+
+  </p>
+
+    <h1>Technical</h1>
+    This project uses Amazon’s facial recognition and classification software
+    called Rekognition. This system is able to recognize faces that have been
+    uploaded to it. The server is a node express server running on a
+    DigitalOcean droplet.<br />
+
+    <br />You can see the code on github here. You can read more about the
+    process here.<br />
+
+
+    <h1>Acknowledgements</h1>
+    A huge thank you to Shawn Van Every and the Veillance classmates.<br />
+
+    <br />This project was inspired by the work of:<br />
+    <br />[references]<br />
+
+    </div>
+
+  </body>
+
+</html>
